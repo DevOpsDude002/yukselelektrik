@@ -2670,7 +2670,7 @@ progress {
     margin-right: 16px;
 }
 
-.btn-check {
+.check {
     position: absolute;
     clip: rect(0, 0, 0, 0);
     pointer-events: none;
@@ -14732,16 +14732,22 @@ input {
     z-index: 9;
 }
 .btn-shop-1 {
+    margin-top: 20px;
     padding: 10px 20px;
     background-color: crimson;
     color: white;
     border-radius: 10px;
 }
 .btn-shop-2 {
+    margin-top: 20px;
     padding: 10px 20px;
-    background-color: gray;
+    background-color: black;
     color: white;
     border-radius: 10px;
+}
+.btn-shop-1, .btn-shop-2:hover {
+    transform: scale(103%);
+    transition: all 1s ease;
 }
 /*Banner Animation*/
 .banner-animation {
